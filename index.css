@@ -1,12 +1,12 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-image: url('c:/Users/TUF GAMING/Downloads/Digital marketing icons, a Graphic by Redchocolate.jpeg');
+  background-image: url('images\img02.jpeg');
   background-color: #0a4272;
   color: #ece4e4;
 }
 
 .hero-section {
-  background: url('c:/Users/TUF GAMING/Downloads/HD wallpaper_ Team Work - Business Meeting - Top View with Copyspace, businessman.jpeg') no-repeat center center/cover;
+  background: url('images\img03.jpeg') no-repeat center center/cover;
   min-height: 80vh;
   display: flex;
   color: aqua;
