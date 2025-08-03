@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('c:/Users/TUF GAMING/Downloads/Digital marketing icons, a Graphic by Redchocolate.jpeg');
+  background-color: #0a4272;
+  color: #ece4e4;
+}
+
+.hero-section {
+  background: url('c:/Users/TUF GAMING/Downloads/HD wallpaper_ Team Work - Business Meeting - Top View with Copyspace, businessman.jpeg') no-repeat center center/cover;
+  min-height: 80vh;
+  display: flex;
+  color: aqua;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Text styling and animation */
+.centered-text {
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.welcome-text {
+  color: rgb(7, 6, 7);
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+.slogan-text{
+    color:#ba5808;
+    font-size:2rem;
+    font-family: sans-serif;
+}
+
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.service-box {
+  transition: transform 0.3s ease, background 0.3s;
+}
+
+.service-box:hover {
+  transform: scale(1.05);
+  background-color: #bd15bd;
+}
+
+form .form-control {
+  background-color: #111213;
+  border: none;
+  color: #ad2626;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+.services-heading {
+  color: #0c0b0a; 
+}
+
+.section-divider {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #fff;
+  border-top: 2px solid #ff6600;
+  border-bottom: 2px solid #ff6600;
+}
+
+.divider-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.divider-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
