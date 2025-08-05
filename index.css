@@ -5,7 +5,7 @@ body {
   color: #ece4e4;
 }
   .hero-section {
-  background-image: url("images/img03.jpeg");
+  background-image: url("images\img03.jpeg");
   height: 500px;
   background-size: cover;
   background-position: center;
