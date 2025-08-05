@@ -6,9 +6,14 @@ body {
 }
   .hero-section {
  background-image: url("images/img03.jpeg");
-  height: 500px;
+  height: 82vh;
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
 }
 
 /* Text styling and animation */
@@ -19,11 +24,11 @@ body {
 
 .welcome-text {
   color: rgb(7, 6, 7);
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: sans-serif;
 }
 .slogan-text{
-    color:#ba5808;
+    color:#175ca5;
     font-size:2rem;
     font-family: sans-serif;
 }

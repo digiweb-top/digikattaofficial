@@ -5,17 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Chrome",
-            "request": "launch",
-            "type": "chrome",
-            "url": "",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "name": "index.html",
+            "url": "http://digikatta.co.in,
             "webRoot": "${workspaceFolder}"
         }
     ]
