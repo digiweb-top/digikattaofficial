@@ -1,11 +1,11 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
+    font-family: 'Segoe UI', sans-serif;
   background-image: url('images\img02.jpeg');
   background-color: #0a4272;
   color: #ece4e4;
 }
   .hero-section {
-  background-image: url("images\img03.jpeg");
+ background-image: url("images\img03.jpeg");
   height: 500px;
   background-size: cover;
   background-position: center;
