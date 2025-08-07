@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(-45deg, #2c3e50, #34495e, #2c3e50, #1abc9c);
+  background-size: 400% 400%;
+  animation: gradientBG 12s ease infinite;
+  color: rgb(12, 11, 11);
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #1198d1;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #f0f0f0;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-in-top {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: slideTop 1s ease-out forwards;
+  font-size: 4.5rem;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+}
+
+@keyframes slideTop {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

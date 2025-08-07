@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', sans-serif;
   background-image: url('images/service bg.jpg');
-  height: 82vh;
+  height: 40vh;
   background-color: #0a4272;
   color: #ece4e4;
 }
@@ -17,7 +17,6 @@ body {
 
 }
 
-/* Text styling and animation */
 .centered-text {
   text-align: center;
   animation: fadeIn 2s ease-in-out;
@@ -29,13 +28,15 @@ body {
   font-family: sans-serif;
 }
 .slogan-text{
-  font-family: 'Pacifico', cursive;
-  font-size: 5rem;
-  color: #3a9966;
+  font-family: 'luckiest guy', cursive;
+  font-size: 4.2rem;
+  color: #eefffc;
   text-align: center;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.2);
 }
+
+
 
 
 /* Animation keyframes */
@@ -193,3 +194,4 @@ form .form-control {
 .navbar .nav-link:hover i {
   color: #0d6efd; 
 }
+
