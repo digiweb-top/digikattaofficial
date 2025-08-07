@@ -420,27 +420,31 @@
   <p class="section-subtitle">Ready to boost your brand? Contact us for personalized marketing solutions</p>
 
   <div class="contact-container">
-    <!-- Contact Form -->
-    <div class="contact-card">
-      <h3>Send Us a Message</h3>
-        <form action="https://formspree.io/f/manbbeyr" method="POST">
-        <input type="text" placeholder="Full Name *" required>
-        <input type="email" placeholder="Email Address *" required>
-        <input type="tel" placeholder="Phone Number *" required>
-        <select required>
-          <option>Select your service</option>
-          <option>Digital Marketing</option>
-          <option>Performance Marketing</option>
-          <option>Influencer Marketing</option>
-          <option>Graphic Designing</option>
-          <option>SEO</option>
-          <option>Meta Ads</option>
-          <option>Website Development</option>
-        </select>
-        <textarea placeholder="Message" rows="4" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
+   <!-- Contact Form -->
+<div class="contact-card">
+  <h3>Send Us a Message</h3>
+  <form action="https://formspree.io/f/movlpwdj"
+ method="POST">
+    <input type="text" name="name" placeholder="Full Name *" required>
+    <input type="email" name="email" placeholder="Email Address *" required>
+    <input type="tel" name="phone" placeholder="Phone Number *" required>
+
+    <select name="service" required>
+      <option value="" disabled selected>Select your service</option>
+      <option>Digital Marketing</option>
+      <option>Performance Marketing</option>
+      <option>Influencer Marketing</option>
+      <option>Graphic Designing</option>
+      <option>SEO</option>
+      <option>Meta Ads</option>
+      <option>Website Development</option>
+    </select>
+
+    <textarea name="message" placeholder="Message" rows="4" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</div>
 
     <!-- Contact Info -->
     <div class="contact-card">
@@ -473,7 +477,3 @@
   <script>AOS.init();</script>
 </body>
 </html>
-
-
-
-
