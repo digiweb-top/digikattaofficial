@@ -1,58 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Podcast Production - Digikatta</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Podcast Production | Digikatta Marketing Agency</title>
   <link rel="stylesheet" href="podcast.css">
-
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: #70c574;
-    }
-    .podcast-banner {
-      background: url('images/podcast bg 1023.jpg') center/cover;
-      color: rgb(252, 247, 247);
-      padding: 60px 20px;
-      text-align: center;
-    }
-    .calendar-container {
-      background: rgb(136, 204, 207);
-      border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
-      padding: 20px;
-    }
-    </style>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-<div class="fade-in">
-  <div class="podcast-banner">
-   <h1 class="slide-in-top">🎧DIGITALKS BY DIGIKATTA</h1>
-    <p>From ideation to distribution — we turn your voice into a powerful brand.</p>
-    <a href="index.html" class="back-button">← Back to DIGIKATTA</a>
-  </div>
-</div>
+  <!-- Sticky Back Button -->
+<a href="index.html" class="btn btn-outline-primary back-btn">
+  ← Back
+</a>
 
-  <div class="container my-5">
-    <h2>Our Services</h2>
-    <ul>
-      <li>🎤 Podcast ideation & scriptwriting</li>
-      <li>🎚️ Studio-quality audio recording</li>
-      <li>🎧 Audio editing & post production</li>
-      <li>🧠 Branding, cover art, and episode strategy</li>
-    </ul>
 
-    <h3 class="mt-5">📅 Schedule Your Podcast Recording</h3>
-    <div class="calendar-container mt-3">
-      <!-- Calendly Embed -->
-      <iframe src="https://calendly.com/digikatta02/30min" width="100%" height="600" frameborder="0"></iframe>
+  <!-- Hero Section -->
+  <section class="podcast-hero d-flex align-items-center text-center">
+    <div class="overlay"></div>
+    <div class="container position-relative text-white">
+      <h1>Podcast Production</h1>
+      <p>Crafting engaging podcasts from concept to distribution</p>
+    </div>
+  </section>
+
+  <!-- About Podcast -->
+  <section class="py-5 about-podcast">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4">
+          <img src="images/podcast bg02.jpeg" alt="Podcast Setup" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-6">
+          <h2>Why Podcast Production?</h2>
+          <p>Podcasts are one of the fastest-growing content mediums, helping brands connect authentically with their audience. At Digikatta, we help you launch and scale a podcast that reflects your brand identity.</p>
+          <ul>
+            <li>Concept Development & Scriptwriting</li>
+            <li>Professional Studio Recording</li>
+            <li>Editing, Mixing & Sound Design</li>
+            <li>Publishing & Multi-Platform Distribution</li>
+            <li>Marketing & Promotion Strategies</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+<section class="py-5 podcast-services bg-light">
+  <div class="container text-center">
+    <h2 class="mb-5">Our Podcast Services</h2>
+    <div class="row">
+      
+      <!-- Service Card 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="service-card">
+          <div class="icon">
+            🎙️
+          </div>
+          <h4>Planning</h4>
+          <p>We help you design your podcast concept, format, and storytelling style for maximum impact.</p>
+        </div>
+      </div>
+
+      <!-- Service Card 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="service-card">
+          <div class="icon">
+            🎧
+          </div>
+          <h4>Recording</h4>
+          <p>High-quality audio recording with professional equipment for a studio-like experience.</p>
+        </div>
+      </div>
+
+      <!-- Service Card 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="service-card">
+          <div class="icon">
+            ✂️
+          </div>
+          <h4>Editing</h4>
+          <p>Seamless editing, sound design, and mixing to create a polished final product.</p>
+        </div>
+      </div>
+
+      <!-- Service Card 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="service-card">
+          <div class="icon">
+            🌍
+          </div>
+          <h4>Distribution</h4>
+          <p>Publishing across Spotify, Apple Podcasts, and more to reach your target audience.</p>
+        </div>
+      </div>
+
+      <!-- Service Card 5 -->
+      <div class="col-md-4 mb-4">
+        <div class="service-card">
+          <div class="icon">
+            🚀
+          </div>
+          <h4>Promotion</h4>
+          <p>Smart marketing strategies to grow listeners and build brand authority.</p>
+        </div>
+      </div>
+
+      <!-- Service Card 6 -->
+      <div class="col-md-4 mb-4">
+        <div class="service-card">
+          <div class="icon">
+            📊
+          </div>
+          <h4>Analytics</h4>
+          <p>Track performance and insights to continually improve your podcast success.</p>
+        </div>
+      </div>
+
     </div>
   </div>
+</section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Booking Section -->
+  <section class="py-5 booking text-center">
+    <div class="container">
+      <h2 class="mb-4">Book Your Podcast Session</h2>
+      <p class="mb-4">Schedule a session with our team and start your podcast journey today.</p>
+      <a href="booking .html" class="btn btn-primary btn-lg">Schedule Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center bg-dark text-white">
+    <p>© 2025 Digikatta Marketing Agency. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const cards = document.querySelectorAll('.service-card');
+    const revealOnScroll = () => {
+      cards.forEach(card => {
+        const cardTop = card.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (cardTop < windowHeight - 100) {
+          card.classList.add('visible');
+        }
+      });
+    };
+    window.addEventListener('scroll', revealOnScroll);
+    revealOnScroll(); // Initial check
+  });
+</script>
+
+
 </body>
 </html>

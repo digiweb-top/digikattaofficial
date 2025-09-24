@@ -1,358 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0S4XWR04TN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Digikatta / Personal Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  gtag('config', 'G-0S4XWR04TN');
-</script>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Digikatta Marketing Agency</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="index.css">
 </head>
-<body data-bs-theme="dark">
+<body>
 
-  <title>Digikatta Marketing Agency | Digital Marketing & Branding</title>
-<meta name="description" content="Digikatta Marketing Agency offers expert digital marketing, social media management, SEO, website design, and branding solutions to grow your business.">
-<meta name="keywords" content="marketing agency, digital marketing, SEO, social media, branding, website design, advertising">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.digikatta.co.in/">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-glass">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <img src="images/img01.png" alt="logo" class="brand-logo me-2">
+        <span class="brand-text">Digikatta Marketing Agency</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <!-- Header -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#store">Store</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+  <!-- HERO -->
+  <header id="home" class="hero d-flex align-items-center justify-content-center">
+    <div class="container text-center text-white hero-inner">
+      <h1 class="display-1 fw-bold" data-aos="fade-up" data-aos-duration="1100">DIGIKATTA MARKETING AGENCY</h1>
+      <p class="lead mt-2 hero-sub" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150">
+        Creative Digital Marketing • Social Media • Video Production
+      </p>
+
+      <div class="mt-4" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300">
+        <a href="aboutus.html" class="btn btn-primary btn-pill">Explore More</a>
+      </div>
+    </div>
+
+    <!-- subtle overlay gradient for depth -->
+    <div class="hero-overlay"></div>
+  </header>
+
+  <!-- CONTENT SECTIONS -->
+  <main>
+    <!-- About -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-right">About</h2>
+        <div class="row align-items-center">
+          <div class="col-md-5" data-aos="fade-right" data-aos-delay="100">
+          </div>
+          <div class="col-md-7" data-aos="fade-left" data-aos-delay="150">
+            <p>
+              Digikatta Marketing Agency is a creative digital agency dedicated to helping brands grow in the modern digital space. We specialize in digital marketing, social media management, video & photo production, performance marketing, SEO, web development, podcast production, and branding solutions.
+
+With a focus on strategy, creativity, and performance, we craft tailored solutions that connect businesses with their audience, build strong online presence, and drive measurable growth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+<section id="services" class="py-5 bg-dark-section">
   <div class="container">
-    <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="images/img01.png" height="40" class="me-2" />
-      <strong>Digikatta Marketing Agency</strong>
-    </a>
-    
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav align-items-lg-center">
-        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        <li class="nav-item"><a class="nav-link" href="aboutus.html">AboutUs</a>
-
-</li>
-      </ul>
-    </div>
-      <!-- Social Media Icons -->
-      <ul class="navbar-nav ms-3 d-flex flex-row gap-3">
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.facebook.com/yourpage" target="_blank">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.instagram.com/digikatta" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/yourprofile" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://wa.me/918149588200" target="_blank">
-            <i class="fab fa-whatsapp"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-  <!-- Hero Section -->
-  <section class="bg-dark text-white text-center py-5 hero-section">
-    <div class="container" data-aos="fade-up">
-      <h1 class="display-4 fw-bold"></h1>
-      <p class="lead"></p>
-      <section class="hero d-flex justify-content-center text-center" id="home">
-  <div class="container" data-aos="fade-up">
-    <body>
-  <div class="background">
-    <div class="centered-text">
-      <h1 class="welcome-text">
-        <h1 class="slogan-text">WHERE DIGITAL SOLUTION SPEAK SUCCESS🚀
-        </h1>
-
-       
-      </h1>
-    </div>
-  </div>
-    </p>
-    </h1>
-  </div>
-</section>
-    </div>
-  </section>
-</body>
-
-<!-- Divider Section -->
-<section class="section-divider text-center py-5">
-  <div data-aos="fade-up">
-    <h3 class="divider-title">What We Do Best</h3>
-    <p class="divider-subtitle">Explore our wide range of marketing services designed to grow your brand 🚀</p>
-  </div>
-</section>
-  <!-- Services Section -->
-<section class="py-5" ID="services">
-  <div class="container">
-    <h2 class="text-center mb-4 services-heading" data-aos="fade-up"></h2>
+    <h2 class="section-title text-light" data-aos="fade-right">Services</h2>
     <div class="row g-4">
 
-      <!-- Service 1 -->
-      <div class="col-md-4" data-aos="fade-right">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#digitalMarketing"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Digital Marketing</h5>
-          </div>
-          <div class="collapse mt-2" id="digitalMarketing">
-            <div class="bg-dark text-white p-3 rounded">
-              We develop multi-platform digital strategies to boost brand awareness, customer engagement, and ROI through ads, SEO, and content funnels.
-            </div>
+      <!-- Digital Marketing -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-bullhorn fa-3x mb-3 text-primary"></i>
+            <h5 class="card-title">Digital Marketing</h5>
+            <p class="card-text">Comprehensive online strategies to boost your brand presence.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 2 -->
-      <div class="col-md-4" data-aos="fade-up">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#socialMedia"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Social Media Management</h5>
-          </div>
-          <div class="collapse mt-2" id="socialMedia">
-            <div class="bg-dark text-white p-3 rounded">
-              We manage and grow your presence on Instagram, Facebook, LinkedIn, and more with engaging content, scheduling, and analytics.
-            </div>
+      <!-- Social Media Management -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="150">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-brands fa-instagram fa-3x mb-3 text-danger"></i>
+            <h5 class="card-title">Social Media Management</h5>
+            <p class="card-text">Content creation, reels, ad management, and community growth.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 3 -->
-      <div class="col-md-4" data-aos="fade-left">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#videoProduction"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Video Productions</h5>
-          </div>
-          <div class="collapse mt-2" id="videoProduction">
-            <div class="bg-dark text-white p-3 rounded">
-              From reels to full-scale campaigns, we script, shoot, and edit videos that captivate and convert your audience.
-            </div>
+      <!-- Video Productions -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-video fa-3x mb-3 text-info"></i>
+            <h5 class="card-title">Video Productions</h5>
+            <p class="card-text">Reels, commercials, YouTube content, and professional editing.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 4 -->
-      <div class="col-md-4" data-aos="fade-right">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#photoshoots"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Photoshoots</h5>
-          </div>
-          <div class="collapse mt-2" id="photoshoots">
-            <div class="bg-dark text-white p-3 rounded">
-              We offer professional product, fashion, and corporate shoots for portfolios, ad campaigns, and brand visuals.
-            </div>
+      <!-- Photoshoots -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="250">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-camera fa-3x mb-3 text-warning"></i>
+            <h5 class="card-title">Photoshoots</h5>
+            <p class="card-text">Creative photography for products, events, and branding.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 5 -->
-      <div class="col-md-4" data-aos="fade-up">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#graphicDesign"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Graphic Designing</h5>
-          </div>
-          <div class="collapse mt-2" id="graphicDesign">
-            <div class="bg-dark text-white p-3 rounded">
-              From logos to social creatives, our design team brings your brand to life with modern, unique visuals.
-            </div>
+      <!-- Graphic Designing -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-paintbrush fa-3x mb-3 text-success"></i>
+            <h5 class="card-title">Graphic Designing</h5>
+            <p class="card-text">Logos, posters, infographics, and visually engaging creatives.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 6 -->
-      <div class="col-md-4" data-aos="fade-left">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#metaAds"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Meta Advertisements</h5>
-          </div>
-          <div class="collapse mt-2" id="metaAds">
-            <div class="bg-dark text-white p-3 rounded">
-              We run performance-driven ad campaigns on Facebook, Instagram, and other Meta platforms to generate leads and sales.
-            </div>
+      <!-- Meta Advertisements -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="350">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-brands fa-facebook fa-3x mb-3 text-primary"></i>
+            <h5 class="card-title">Meta Advertisements</h5>
+            <p class="card-text">Targeted Facebook and Instagram ads for maximum reach.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 7 -->
-      <div class="col-md-4" data-aos="fade-right">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#performanceMarketing"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Performance Marketing</h5>
-          </div>
-          <div class="collapse mt-2" id="performanceMarketing">
-            <div class="bg-dark text-white p-3 rounded">
-              ROI-focused strategies including paid campaigns, retargeting, lead funnels, and conversions optimization across all channels.
-            </div>
+      <!-- Performance Marketing -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-chart-line fa-3x mb-3 text-success"></i>
+            <h5 class="card-title">Performance Marketing</h5>
+            <p class="card-text">Data-driven ad campaigns to increase leads and ROI.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 8 -->
-      <div class="col-md-4" data-aos="fade-up">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#seo"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Search Engine Optimization</h5>
-          </div>
-          <div class="collapse mt-2" id="seo">
-            <div class="bg-dark text-white p-3 rounded">
-              Improve your search rankings and organic visibility with powerful SEO strategies tailored to your brand and audience.
-            </div>
+      <!-- SEO -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="450">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-magnifying-glass-chart fa-3x mb-3 text-info"></i>
+            <h5 class="card-title">Search Engine Optimization</h5>
+            <p class="card-text">On-page, off-page, and technical SEO for better rankings.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 9 -->
-      <div class="col-md-4" data-aos="fade-left">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#strategy"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Strategic Planning</h5>
-          </div>
-          <div class="collapse mt-2" id="strategy">
-            <div class="bg-dark text-white p-3 rounded">
-              We map tailored digital strategies with KPIs and goals to align your marketing efforts with business growth.
-            </div>
+      <!-- Strategic Planning -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-lightbulb fa-3x mb-3 text-warning"></i>
+            <h5 class="card-title">Strategic Planning</h5>
+            <p class="card-text">Tailored marketing strategies aligned with your goals.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 10 -->
-      <div class="col-md-4" data-aos="fade-right">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#contentMarketing"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Content Marketing</h5>
-          </div>
-          <div class="collapse mt-2" id="contentMarketing">
-            <div class="bg-dark text-white p-3 rounded">
-              We create blogs, posts, scripts, and emails that inform, entertain, and convert your audience across platforms.
-            </div>
+      <!-- Content Marketing -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="550">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-pen-nib fa-3x mb-3 text-danger"></i>
+            <h5 class="card-title">Content Marketing</h5>
+            <p class="card-text">Engaging blogs, articles, and media to attract and retain customers.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 11 -->
-      <div class="col-md-4" data-aos="fade-up">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#webDev"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Web Design & Development</h5>
-          </div>
-          <div class="collapse mt-2" id="webDev">
-            <div class="bg-dark text-white p-3 rounded">
-              Build modern, responsive, SEO-ready websites with clean UI/UX that reflects your brand's digital identity.
-            </div>
+      <!-- Web Design & Development -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-laptop-code fa-3x mb-3 text-primary"></i>
+            <h5 class="card-title">Web Design & Development</h5>
+            <p class="card-text">Modern, responsive, and user-friendly websites for your business.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 12 -->
-      <div class="col-md-4" data-aos="fade-left">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#influencer"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Influencer Marketing</h5>
-          </div>
-          <div class="collapse mt-2" id="influencer">
-            <div class="bg-dark text-white p-3 rounded">
-              Partner with trusted influencers to promote your product authentically to niche and large-scale audiences.
-            </div>
+      <!-- Influencer Marketing -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="650">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-user-group fa-3x mb-3 text-success"></i>
+            <h5 class="card-title">Influencer Marketing</h5>
+            <p class="card-text">Partnering with influencers to increase brand visibility.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 13 -->
-      <div class="col-md-4" data-aos="fade-right">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#branding"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Branding</h5>
-          </div>
-          <div class="collapse mt-2" id="branding">
-            <div class="bg-dark text-white p-3 rounded">
-              From logo to voice, we build consistent brand identities that resonate with your customers.
-            </div>
+      <!-- Branding -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="700">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-crown fa-3x mb-3 text-warning"></i>
+            <h5 class="card-title">Branding</h5>
+            <p class="card-text">Building strong and memorable brand identity.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 14 -->
-      <div class="col-md-4" data-aos="fade-up">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#podcast"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Podcast Productions</h5>
-          </div>
-          <div class="collapse mt-2" id="podcast">
-            <div class="bg-dark text-white p-3 rounded">
-              Full-service podcast production — from recording to editing and publishing — to grow your brand’s voice.
-            </div>
+      <!-- Podcast Productions -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="750">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-microphone fa-3x mb-3 text-danger"></i>
+            <h5 class="card-title">Podcast Productions</h5>
+            <p class="card-text">Recording, editing, and publishing engaging podcasts.</p>
           </div>
         </div>
       </div>
 
-      <!-- Service 15 -->
-      <div class="col-md-4" data-aos="fade-left">
-        <div class="p-0">
-          <div class="service-box p-4 bg-body-secondary rounded shadow h-100"
-               data-bs-toggle="collapse" data-bs-target="#reelProduction"
-               aria-expanded="false" style="cursor: pointer;">
-            <h5 class="mb-0">Reel Production</h5>
-          </div>
-          <div class="collapse mt-2" id="reelProduction">
-            <div class="bg-dark text-white p-3 rounded">
-              We plan, script, shoot, and edit short-form content optimized for Instagram and YouTube reels that go viral.
-            </div>
+      <!-- Reel Production -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="800">
+        <div class="card service-card h-100 text-center">
+          <div class="card-body">
+            <i class="fa-solid fa-clapperboard fa-3x mb-3 text-info"></i>
+            <h5 class="card-title">Reel Production</h5>
+            <p class="card-text">Creative and trendy reels to capture audience attention.</p>
           </div>
         </div>
       </div>
@@ -360,136 +253,198 @@
     </div>
   </div>
 </section>
-<!--podcast section-->
- <section id="podcastIntro" class="bg-dark text-white py-5" style="background: url('images/podcast bg 1023.jpg') center/cover; backdrop-filter: blur(4px);">
-  <div class="container text-center">
-    <h2 class="display-5 fw-bold">🎙️ Podcast Production</h2>
-    <p class="lead">Empower your voice with professional podcast creation, editing, branding & publishing services from Digikatta.</p>
-    <a href="podcast.html" class="btn btn-outline-info mt-3">Explore More</a>
+
+
+    <!-- Podcast Production Section -->
+<section id="podcast-production" class="podcast-section d-flex align-items-center text-center">
+  <div class="overlay"></div>
+  <div class="container position-relative text-white">
+    <h2 class="mb-3">Podcast Production</h2>
+    <p class="mb-4">We help you create engaging, high-quality podcasts from concept to final production. Our services include content planning, recording, editing, distribution, and promotion to grow your audience and brand presence.</p>
+    
+    <a href="podcast.html" class="btn btn-primary">Explore More</a>
   </div>
 </section>
 
-<!-- Clients Section -->
-<section class="py-5 bg-dark text-white">
+
+
+   <!-- Our Clients Section -->
+<section id="our-clients" class="py-5">
   <div class="container">
-    <h2 class="text-center mb-5" data-aos="fade-up">Our Clients</h2>
-    <div class="row g-4 justify-content-center">
-
-      <!-- Client 1 -->
-      <div class="col-md-4" data-aos="fade-up">
-        <div class="card bg-body-secondary text-white h-100 shadow-lg">
-          <div class="row g-0 align-items-center">
-            <div class="col-4">
-              <img src="images/img aryashree.png" class="img-fluid rounded-start" alt="ARCHANA MISHRA">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <h5 class="card-title">ARYASHREE MAKEOVERS</h5>
-                <p class="card-text small">A premium beauty and wellness brand offering expert makeover services. We helped enhance their digital presence through tailored content and visual storytelling.</p>
-              </div>
-            </div>
+    <h2 class="text-center mb-5">Our Clients</h2>
+    <div class="row justify-content-center">
+      
+      <!-- Client Card -->
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="client-card text-center">
+          <img src="images/img aryashree.png" alt="Client 1" class="img-fluid mb-3">
+          <div class="client-info">
+            <h5>ARYASHREE MAKEOVERS</h5>
+            <p>A premium beauty and wellness brand offering expert makeover services. We helped enhance their digital presence through tailored content and visual storytelling.</p>
           </div>
         </div>
       </div>
 
-      <!-- Client 2 -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="card bg-body-secondary text-white h-100 shadow-lg">
-          <div class="row g-0 align-items-center">
-            <div class="col-4">
-              <img src="images/GODOT.jpeg" class="img-fluid rounded-start" alt="Client 2">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <h5 class="card-title">GODOT PRINTS</h5>
-                <p class="card-text small">A dynamic custom printing venture specializing in personalized merchandise. We crafted their brand identity and optimized their digital storefront for growth.</p>
-              </div>
-            </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="client-card text-center">
+          <img src="images/GODOT.jpeg" alt="Client 2" class="img-fluid mb-3">
+          <div class="client-info">
+            <h5>GODOT PRINTS</h5>
+            <p>A dynamic custom printing venture specializing in personalized merchandise. We crafted their brand identity and optimized their digital storefront for growth.</p>
           </div>
         </div>
       </div>
 
-      <!-- Client 3 -->
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="card bg-body-secondary text-white h-100 shadow-lg">
-          <div class="row g-0 align-items-center">
-            <div class="col-4">
-              <img src="images/GARUDZHEP.jpeg" class="img-fluid rounded-start" alt="Client 3">
-            </div>
-            <div class="col-8">
-              <div class="card-body">
-                <h5 class="card-title">GARUDZHEP ACADEMY</h5>
-                <p class="card-text small">A leading career coaching institute empowering students with strategic exam preparation. We boosted their reach through targeted influencer and digital ad campaigns.</p>
-              </div>
-            </div>
+       <div class="col-md-3 col-sm-6 mb-4">
+        <div class="client-card text-center">
+          <img src="images/GARUDZHEP.jpeg" alt="Client 3" class="img-fluid mb-3">
+          <div class="client-info">
+            <h5>GARUDZHEP ACADEMY</h5>
+            <p>A leading career coaching institute empowering students with strategic exam preparation. We boosted their reach through targeted influencer and digital ad campaigns.</p>
           </div>
         </div>
       </div>
 
+<div class="col-md-3 col-sm-6 mb-4">
+        <div class="client-card text-center">
+          <img src="images/g4.jpg" alt="Client 4" class="img-fluid mb-3">
+          <div class="client-info">
+            <h5>G4 ELECTRONICS</h5>
+            <p>A trusted electronic retail brand delivering the latest gadgets and appliances. We enhanced their visibility and sales through engaging social media strategies, influencer collaborations, and result-driven digital ad campaigns.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="client-card text-center">
+          <img src="images/shills.png" alt="Client 5" class="img-fluid mb-3">
+          <div class="client-info">
+            <h5>SHILLS NAIL ART</h5>
+            <p>A premier nail art academy shaping creative professionals with expert training and hands-on workshops. We amplified their brand presence through influencer-led promotions, engaging content, and high-performing digital ad campaigns.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="client-card text-center">
+          <img src="images/solarge.jpg" alt="Client 6" class="img-fluid mb-3">
+          <div class="client-info">
+            <h5>SOLARGE INDIA</h5>
+            <p>A leading solar solutions provider promoting sustainable energy with innovative installations and services. We expanded their reach through targeted digital ad campaigns, impactful influencer collaborations, and strong online branding.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="client-card text-center">
+          <img src="images/g4.jpg" alt="Client 7" class="img-fluid mb-3">
+          <div class="client-info">
+            <h5>DR.YOGINI KUBER</h5>
+            <p>A trusted electronic retail brand delivering the latest gadgets and appliances. We enhanced their visibility and sales through engaging social media strategies, influencer collaborations, and result-driven digital ad campaigns.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="client-card text-center">
+          <img src="images/Leucita logo1.jpg" alt="Client 8" class="img-fluid mb-3">
+          <div class="client-info">
+            <h5>LEUCITA</h5>
+            <p>A trusted haircare brand offering nourishing shampoos and conditioners for healthy, beautiful hair. We strengthened their market presence through creative influencer campaigns, engaging digital content, and performance-driven ad strategies.</p>
+          </div>
+        </div>
+      </div>
+    
     </div>
   </div>
 </section>
 
-  <!-- Contact Section -->
-<section id="contact" class="contact-section" id="contact">
-  <h2 class="section-title">Contact Us</h2>
-  <p class="section-subtitle">Ready to boost your brand? Contact us for personalized marketing solutions</p>
 
-  <div class="contact-container">
-   <!-- Contact Form -->
-<div class="contact-card">
-  <h3>Send Us a Message</h3>
-  <form action="https://formspree.io/f/movlpwdj"
- method="POST" href="thank  you formspree.html">
-    <input type="text" name="name" placeholder="Full Name *" required>
-    <input type="email" name="email" placeholder="Email Address *" required>
-    <input type="tel" name="phone" placeholder="Phone Number *" required>
-
-    <select name="service" required>
-      <option value="" disabled selected>Select your service</option>
-      <option>Digital Marketing</option>
-      <option>Performance Marketing</option>
-      <option>Influencer Marketing</option>
-      <option>Graphic Designing</option>
-      <option>SEO</option>
-      <option>Meta Ads</option>
-      <option>Website Development</option>
-    </select>
-
-    <textarea name="message" placeholder="Message" rows="4" required></textarea>
-
-    <button type="submit">Send Message</button>
-  </form>
+    <!-- Contact -->
+    <section id="contact" class="contact-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <p class="text-center mb-5">
+      Ready to boost your brand? Contact us for personalized marketing solutions
+    </p>
+    <div class="row g-4">
+      
+      <!-- Contact Form -->
+      <div class="col-lg-4">
+  <div class="contact-box form-box p-4 rounded shadow">
+    <h4 class="mb-3">Send Us a Message</h4>
+    <form action="https://formspree.io/f/xwprkdaj" method="POST">
+      <div class="mb-3">
+        <input type="text" class="form-control" name="name" placeholder="Full Name *" required>
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" name="email" placeholder="Email Address *" required>
+      </div>
+      <div class="mb-3">
+        <input type="tel" class="form-control" name="phone" placeholder="Phone Number *" required>
+      </div>
+      <div class="mb-3">
+        <select class="form-select" name="service">
+          <option value="">Select your service</option>
+          <option>Digital Marketing</option>
+          <option>Social Media Management</option>
+          <option>Web Development</option>
+          <option>SEO</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" name="message" rows="4" placeholder="Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success w-100">Send Message</button>
+    </form>
+  </div>
 </div>
 
-    <!-- Contact Info -->
-    <div class="contact-card">
-      <h3>Contact Information</h3>
-      <p><strong>Address:</strong><br>Digikatta Marketing Agency, Chhatrapati Sambhajinagar, Maharashtra</p>
-      <p><strong>Phone:</strong><br>+91 8149588200<br>+91 8623936277</p>
-      <p><strong>Email:</strong><br>digikatta02@gmail.com</p>
-      <p><strong>Working Hours:</strong><br>Mon - Sat: 9:00 AM - 7:00 PM<br>Sunday: Closed</p>
-    </div>
+      <!-- Contact Info -->
+      <div class="col-lg-4">
+        <div class="contact-box info-box p-4 rounded">
+          <h4 class="mb-3">Contact Information</h4>
+          <p><strong>Address:</strong><br>DigiKatta Marketing Agency, Chhatrapati Sambhajinagar, Maharashtra</p>
+          <p><strong>Phone:</strong><br>+91 8149588200<br>+91 8623936277</p>
+          <p><strong>Email:</strong><br>digikatta02@gmail.com</p>
+          <p><strong>Working Hours:</strong><br>Mon – Sat: 9:00 AM – 7:00 PM<br>Sunday: Closed</p>
+        </div>
+      </div>
 
-    <!-- WhatsApp Card -->
-    <div class="contact-card whatsapp">
-      <h3>Connect on WhatsApp</h3>
-      <p>Get instant answers to your marketing questions</p>
-      <a href="https://wa.me/9860187378" target="_blank" class="whatsapp-button">Chat on WhatsApp</a>
+      <!-- WhatsApp -->
+      <div class="col-lg-4">
+        <div class="contact-box whatsapp-box p-4 rounded text-center">
+          <h4 class="mb-3">Connect on WhatsApp</h4>
+          <p>Get instant answers to your marketing questions</p>
+          <a href="https://wa.me/918149588200" target="_blank" class="btn btn-light">Chat on WhatsApp</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
 
-
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    &copy; 2025 Digikatta Marketing Agency. All Rights Reserved.
+  <!-- FOOTER -->
+  <footer class="py-3 footer-dark">
+    <div class="container text-center text-muted small">
+      © <span id="year"></span> Digikatta Marketing Agency. All rights reserved.
+    </div>
   </footer>
 
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- FLOATING ACTIONS -->
+  <div class="floating-actions">
+    <a href="#" class="fab" title="Share" data-aos="zoom-in"><svg width="22" height="22" viewBox="0 0 24 24"><path fill="#0b1726" d="M..."/></svg></a>
+    <a href="#contact" class="fab" title="Chat" data-aos="zoom-in" data-aos-delay="100">💬</a>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init();</script>
+  <script src="krishna.js"></script>
+  <script>
+    AOS.init({ once: true });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

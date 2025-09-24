@@ -1,0 +1,124 @@
+/* Hero Section */
+.about-hero {
+  position: relative;
+  height: 60vh;
+  background: url('images/aboutus bg.jpg') center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 1;
+}
+
+.about-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* About Company */
+.about-company h2 {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+/* Mission Vision Values */
+.mission-vision .mv-card {
+  background: linear-gradient(to right,#4cbae8, #8cbac9, #2c5364);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mission-vision .mv-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Team Section */
+.team .team-card {
+  background: linear-gradient(to right,#9495cc, #6a75dc, #3ea7d8);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.team .team-card:hover {
+  transform: translateY(-8px);
+}
+
+.team img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Call to Action */
+.cta {
+  background: linear-gradient(135deg, #ff4d5a, #e03e4b);
+  color: #fff;
+  border-radius: 12px;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.cta .btn-primary {
+  background: #fff;
+  color: #ff4d5a;
+  border: none;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.cta .btn-primary:hover {
+  background: #e03e4b;
+  color: #fff;
+}
+
+
+.back-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+
+  border-radius: 30px;
+  padding: 8px 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+
+  background: #fff;
+  border: 2px solid #0d6efd;
+  color: #0d6efd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  transform: translateX(-3px);
+}

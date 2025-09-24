@@ -1,59 +1,170 @@
-body {
-  background: linear-gradient(-45deg, #2c3e50, #34495e, #2c3e50, #1abc9c);
-  background-size: 400% 400%;
-  animation: gradientBG 12s ease infinite;
-  color: rgb(12, 11, 11);
+/* Hero Section */
+.podcast-hero {
+  position: relative;
+  height: 70vh;
+  background: url('images/podcast111.jpg') center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes gradientBG {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+.podcast-hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 1;
 }
 
-.back-button {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 10px 15px;
-    background-color: #1198d1;
-    color: #000;
-    text-decoration: none;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    z-index: 1000;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+.podcast-hero .container {
+  position: relative;
+  z-index: 2;
 }
 
-.back-button:hover {
-    background-color: #f0f0f0;
+.podcast-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
 }
-.fade-in {
+
+.podcast-hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* About Podcast */
+.about-podcast h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-podcast ul {
+  margin-top: 15px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-podcast ul li {
+  margin-bottom: 10px;
+}
+
+/* Services Section */
+.podcast-services .service-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.podcast-services .service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.podcast-services h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Booking Section */
+.booking {
+  background: linear-gradient(135deg, #ff4d5a, #e03e4b);
+  color: #fff;
+  border-radius: 12px;
+}
+
+.booking h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.booking .btn-primary {
+  background: #fff;
+  color: #ff4d5a;
+  border: none;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.booking .btn-primary:hover {
+  background: #e03e4b;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+/* Service Cards */
+.podcast-services .service-card {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transform: translateY(30px);
   opacity: 0;
-  animation: fadeIn 1.5s ease-in forwards;
 }
 
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
+/* Appear animation (scroll effect) */
+.podcast-services .service-card.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.slide-in-top {
-  opacity: 0;
-  transform: translateY(-50px);
-  animation: slideTop 1s ease-out forwards;
-  font-size: 4.5rem;
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 40px;
+/* Hover effect */
+.podcast-services .service-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
 
-@keyframes slideTop {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* Icon Styling */
+.podcast-services .icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  transition: transform 0.3s;
+}
+
+.podcast-services .service-card:hover .icon {
+  transform: rotate(10deg) scale(1.2);
+}
+
+.podcast-services h4 {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.podcast-services p {
+  font-size: 0.95rem;
+  color: #555;
+}
+.back-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+
+  border-radius: 30px;
+  padding: 8px 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+
+  background: #fff;
+  border: 2px solid #0d6efd;
+  color: #0d6efd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  transform: translateX(-3px);
 }
